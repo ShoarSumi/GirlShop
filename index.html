@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap" rel="stylesheet">
+    <title>Girl Shop</title>
+</head>
+<body>
+    <style>
+        header{
+            background-image: url('img/portada.jpg');
+            height: 100vh;/* el 100% de alto del DISPOCITIVO */
+            background-size: cover;
+        }
+        .titulo{
+            font-family: 'Delius Unicase', cursive;
+            color: #e4ab9a;
+        }
+        .fondo-blanco{
+            background: rgba(255, 255, 255, .7);
+        }
+        h2{
+            font-family: 'Delius Unicase', cursive;
+            background: #e4ab9a;
+            color: #fff;
+        }
+        .precio{
+            color: #e4ab9a;
+        }
+        .btnRosa{
+            background: #e4ab9a;
+            border: 1px solid #e4ab9a;
+        }
+        .btnWap{
+            bottom:20px;
+            right: 20px;
+            width: 70px;
+        }
+    </style>
+    <!-- navegador parte del logo y el menu -->
+    <nav class="bg-light sticky-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 text-center">
+                    <img src="img/logo.png" class="p-2" alt="logo girl shop">
+                </div>
+                <div class="col-12 col-md-8 text-right">
+                    <ul class="mb-0">
+                        <li class="d-inline-block p-3"><a href="#" class="lead text-secondary">Inicio</a></li>
+                        <li class="d-inline-block p-3"><a href="#" class="lead text-secondary">Tienda</a></li>
+                        <li class="d-inline-block p-3"><a href="#" class="lead text-secondary">Rebajas</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- parte del titulo --- fondo imagen ---- -->
+    <header>
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 h-auto align-self-center text-center fondo-blanco py-5">
+                    <h1 class="titulo display-1">Girl Shop</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <!-- seccion tienda -->
+            <div class="row py-5 border-bottom">
+                <div class="col-12 text-center pb-5">
+                    <h2 class="d-inline-block px-2">Tienda</h2>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <img class="img-fluid" src="img/producto1.png" alt="Producto 1">
+                    <h3 class="mt-3">Calcetines</h3>
+                    <span class="d-block precio font-weight-bolder lead">$350 <sup>Bs</sup></span>
+                    <button class="btnRosa text-white py-2 px-5 mt-3">comprar</button>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <img class="img-fluid" src="img/producto2.png" alt="Producto 1">
+                    <h3 class="mt-3">Crema</h3>
+                    <span class="d-block precio font-weight-bolder lead">$350 <sup>Bs</sup></span>
+                    <button class="btnRosa text-white py-2 px-5 mt-3">comprar</button>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <img class="img-fluid" src="img/producto3.png" alt="Producto 1">
+                    <h3 class="mt-3">Cera depiladora</h3>
+                    <span class="d-block precio font-weight-bolder lead">$350 <sup>Bs</sup></span>
+                    <button class="btnRosa text-white py-2 px-5 mt-3">comprar</button>
+                </div>         
+            </div>
+            <!-- final seccion de tienda -->
+
+            <!-- seccion descuentos -->
+            <div class="row py-5">
+                <div class="col-12 text-right pb-5">
+                    <h2 class="d-inline-block px-2">Rebajas navideñas</h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="img/rebajas1.jpg" class="img-fluid" alt="rebajas 60%">
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="img/rebajas2.jpg" class="img-fluid" alt="rebajas 26%">
+                        </div>
+                        <div class="col-12 mt-5">
+                            <img src="img/rebajas3.jpg" class="img-fluid" alt="rebajas 3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center py-4">
+                    <p class="mb-0 lead text-white">Shoar Sumi todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="position-fixed btnWap">
+        <a href="https://wa.me/59160622999"><img src="img/whatsapp.png" alt="boton watsap" class="img-fluid"></a>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
